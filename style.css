@@ -1,0 +1,57 @@
+/* primary color #3A3335 */
+
+
+/* secondary color #EFB0A1 */
+
+
+/* accent color #b17668 */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* to remove chrome's default settings */
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+}
+
+.quote-text {
+    font-family: 'Playball', cursive;
+    font-size: 32px;
+    padding: 30px;
+    transition: opacity 800ms ease-in-out;
+}
+
+.quote-author {
+    font-size: 14px;
+    color: #b17668;
+}
+
+.quote-container {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #EFB0A1;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    /* for mobiles, to wrap the content and not overflow screen */
+}
+
+section.main-section {
+    height: 100vh;
+    width: 100vw;
+    background: #3A3335;
+}
+
+.fixed-message {
+    position: fixed;
+    bottom: 18px;
+    left: 18px;
+    color: #bfacb2;
+    font-size: 20px;
+}
+
+.fade {
+    opacity: 0;
+}
